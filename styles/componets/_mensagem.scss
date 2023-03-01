@@ -1,0 +1,24 @@
+@import '../abstract/variaveis';
+
+.mensagem {
+    padding: 2rem 0;
+    text-align: center;
+    h3 {
+        padding: 1rem 0;
+        font-size: $tamanho-do-texto / 1.5;
+        color: $cor-terciaria;
+        font-weight: 500;
+    }
+    h4 {
+        padding: 1rem 0;
+        font-size: $tamanho-do-texto / 2;
+        color: $cor-terciaria;
+        font-weight: 300;
+    }
+    p {
+        padding: 1rem 0;
+        font-size: $tamanho-do-texto / 2.5;
+        color: $cor-terciaria;
+        font-weight: 300;
+    }
+}
